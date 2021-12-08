@@ -1,0 +1,272 @@
+body {
+	margin: 0px;
+}
+div.contr {
+	margin: 0 auto;
+	max-width: 943.61px;
+}
+div.header {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 33px;
+	padding-bottom: 31px;
+	border-bottom: 1px solid #828282;
+	margin-bottom: 40px;
+}
+.main {
+	font-family: 'Gilroy-Bold', sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	color: #828282;
+	text-decoration: none;
+}
+.main:hover {
+	font-family: 'Gilroy-Bold', sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	color: #070707;
+}
+.main:first-child {
+	color: #070707;
+}
+div.description {
+	display: flex;
+	justify-content: space-between;
+	align-items:flex-end;
+	margin-bottom: 54px;
+}
+div.name {
+	font-family: Gilroy-Bold;
+	font-size: 47.3392px;
+	line-height: 59px;
+}
+div.year {	
+	font-family: Gilroy-Medium;
+	font-size: 18px;
+	line-height: 22px;
+}
+div.language {
+  	font-family: Gilroy-Bold;
+  	font-size: 18px;
+	line-height: 22px;
+	writing-mode: vertical-rl;
+}
+img.me {
+    width: 943.61px;
+    margin-bottom: 104px;
+}
+img.me2 {
+    width: 943.61px;
+    margin-bottom: 104px;
+    display: none;
+}
+div.Background-grey {
+	background-color:#F6F6F6;
+	width: 100%;
+	overflow: auto;
+}
+div.paragraph {
+	margin: 0 auto;
+	max-width: 485.35px;
+}
+div.fields {
+	text-align: center;
+	margin-top: 120px;
+	margin-bottom: 107px;
+}
+div.texts {
+	font-family: Gilroy-Medium;
+	text-align: center;
+	margin: 21.5px 0;
+}
+div.block {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 83px;
+	margin-bottom: 110px;
+}
+div.skills {
+	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ 	width: 166.46px
+}
+div.names {
+	color: #828282;
+	font-family: Gilroy-Bold;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	margin-top: 26px;
+	margin-bottom: 40px;
+}
+.star {
+	font-size: 26px;
+}
+div.works {
+	display: flex;
+	flex-direction: column;
+}
+div.heading-small {
+	font-family: Gilroy-Bold;
+	font-size: 34px;
+	line-height: 42px;
+	text-align: center;
+	margin-top: 91px;
+	margin-bottom: 70px;
+}
+div.works {
+    max-width: 943.61px;
+    margin: 0 auto;
+}
+div.Social {
+	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+	width: 342.18px;
+	height: 40.92px;
+}
+div.text {
+	font-family: Gilroy-Medium;
+	text-align: center
+}
+.work {
+	margin-bottom: 50px;
+}
+.work:not(:first-child) {
+	margin-top: 100px;
+}
+.pod {
+	text-decoration: underline;
+}
+div.message {
+	font-family: Gilroy-Bold;
+	font-size: 18px;
+	line-height: 42px;
+	text-align: center;
+	background-color: #070707;
+	color:  #FFFFFF;
+	width: 180px;
+	height: 42px;
+	margin-top: 30px;
+	margin-bottom: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50px;
+}
+div.contr2 {
+	margin: 0 auto;
+	max-width: 342px;
+}
+div.block2 {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 45px;
+}
+div.Social {
+	display: flex;
+	justify-content: space-between;
+}
+div.parting {
+	font-family: Gilroy-Medium;
+	font-size: 14px;
+	line-height: 17px;
+	color: #828282;
+	margin-bottom: 123px;
+	text-align: center;
+}
+
+@media  (max-width: 1000px) {
+	body {
+	}
+	div.contr {
+		padding: 0 29px;
+		max-width: 316.5px;
+	}
+	div.header {
+		display: none;
+	}
+	div.description {
+		display: block;
+		margin-bottom: 54px;
+	}
+	div.name {
+		margin: 36px auto 23px 0px;
+	}
+	div.year {	
+	}
+	div.language {
+		display: none;
+	}
+	img.me {
+	    display: none;
+	}
+	img.me2 {
+	    width: 100%;
+	    display: block;
+	    margin: 36px 0px 54px 0px;
+	}
+	div.Background-grey {
+	}
+	div.paragraph {
+		box-sizing: border-box;
+		margin: 30px auto 0px auto;
+		max-width: 316px;
+	}
+
+	div.block {
+		display: flex;
+	 	flex-direction: column;
+	 	align-items: center;
+	 }
+	.block:not(:first-child) {
+		margin-top: 83px;
+		
+	}
+	 .skills {
+	 	margin: 40px 0px 40px 0px 
+	 }
+	div.fields {
+		width: 316px;
+		margin: 0px 29px 76px 29px;
+	}
+	div.works {
+	    max-width: 316px;
+	    margin: 0 auto;
+	}			
+	.work {
+		margin-bottom: 50px;
+		width: 100%;
+	} 
+	.work:not(:first-child) {
+		margin-top: 100px;
+	}
+	.portfolio-image {
+		width: 316px;
+	}
+	div.heading-small {
+		margin: 80px auto 30px auto;
+	}
+	.work {
+	margin-bottom: 35px;
+	}
+	.work:not(:first-child) {
+		margin-top: 77px;
+	}
+	.pod {
+		text-decoration: underline;
+	}
+	div.message {
+	width: 316px;
+	margin-top: 40px;
+	margin-bottom: 48px;
+	}
+	div.contr2 {
+	margin: 0 auto;
+	max-width: 315px;
+	}
+	div.parting {
+	margin-bottom: 90px;
+	}
+
+}
